@@ -4,7 +4,7 @@ public class Balloon {
 	
 	public int repainBall(int n, int ball[]) {
 		
-		if (n >= 1 && n <= 100000) {
+		if (n >= 1 && n <= 100) {
 			colors = new int[9];
 			int max = 0;
 			for (int i = 0; i < ball.length; i++) {
